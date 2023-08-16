@@ -221,7 +221,7 @@
 div .digital-market {
   grid-area: dm;
   background-image: url(images/digital-market.png);
-  height: 900px;
+  height: 700px;
 }
 .education-web {
   grid-area: ed;
@@ -457,10 +457,10 @@ footer {
     margin: 0;
     padding: 0;
   }
-}
-.port-work {
-  width: 400px;
-  background-size: cover;
-  height: 60vh;
-  margin: 5px;
+  .port-work {
+    width: 400px;
+    background-size: cover;
+    height: 60vh;
+    margin: 5px;
+  }
 }
