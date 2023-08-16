@@ -34,14 +34,14 @@
   display: flex;
   justify-content: space-evenly;
   border: 2px solid var(--themeOrange);
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   flex-wrap: wrap;
 }
 .contact-box {
   margin: 0 20px 20px 0;
   width: 260px;
   display: flex;
-  font-size: 1.1em;
+  font-size: 1.2em;
   justify-content: start;
 }
 .contact-icon {
@@ -445,4 +445,22 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 405px) {
+  .main-contact {
+    font-size: 14px;
+  }
+
+  .portfolio-work {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+}
+.port-work {
+  width: 400px;
+  background-size: cover;
+  height: 60vh;
+  margin: 5px;
 }
