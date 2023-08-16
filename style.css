@@ -234,7 +234,7 @@ div .digital-market {
 }
 .port-work {
   cursor: pointer;
-  /* width: 100%; */
+  width: 100%; 
   background-size: cover;
   background-repeat: no-repeat;
   border: 5px solid rgb(154, 154, 154);
